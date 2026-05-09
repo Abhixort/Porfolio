@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "name": "Abhishek Abhigyanam",
+    "role": "Full Stack Software Engineer",
+    "currentRole": "Associate Software Engineer",
+    "currentCompany": "Webkul Software Pvt Ltd",
+    "tagline": "Building full-stack products, enterprise workflows, and robust integrations with Python, MERN, and Odoo.",
+    "email": "a.abhigyanam@gmail.com",
+    "phone": "+91 7667409663",
+    "location": "Noida, Uttar Pradesh",
+    "availability": "Open to full-time software engineering roles and select freelance collaborations.",
+    "responseTime": "Usually replies within 24 hours.",
+    "github": "https://github.com/Abhixort",
+    "linkedin": "https://www.linkedin.com/in/abhigyanam-b577b8212/",
+    "leetcode": "https://leetcode.com/u/ABHI_GYANAM/",
+    "resumeUrl": "/resume.pdf",
+    "siteUrl": "https://abhishekabhigyanam.vercel.app",
+    "ogImage": "/og-image.png"
+  },
+  "summary": "Full Stack Software Engineer with experience shipping business-focused products across Odoo, MERN, and Python ecosystems. I enjoy turning complex workflows into clean interfaces, dependable APIs, and maintainable backend logic. My work spans payment integrations, planning tools, analytics-oriented dashboards, and customer-specific platform customizations for real production teams.",
+  "stats": [
+    {
+      "label": "Current role",
+      "value": "Associate Software Engineer at Webkul"
+    },
+    {
+      "label": "Product traction",
+      "value": "59+ sales on Project Gantt Native"
+    },
+    {
+      "label": "Core focus",
+      "value": "Integrations, dashboards, and enterprise workflows"
+    }
+  ],
+  "focusAreas": [
+    {
+      "title": "Enterprise Workflow Engineering",
+      "description": "Design and extend internal tools, ERP modules, and operational interfaces that reduce manual work and fit naturally into real business processes."
+    },
+    {
+      "title": "Integrations and Platform Customization",
+      "description": "Connect third-party services such as payment terminals and adapt products around client-specific rules, approvals, and domain requirements."
+    },
+    {
+      "title": "Full-Stack Product Delivery",
+      "description": "Own features from UI composition to backend logic and data flow using React, Next.js, Node.js, Python, PostgreSQL, and MongoDB."
+    }
+  ],
+  "skills": [
+    { "name": "Python", "category": "language" },
+    { "name": "JavaScript", "category": "language" },
+    { "name": "TypeScript", "category": "language" },
+    { "name": "SQL", "category": "language" },
+    { "name": "React.js", "category": "frontend" },
+    { "name": "Next.js", "category": "frontend" },
+    { "name": "Owl.js", "category": "frontend" },
+    { "name": "Tailwind CSS", "category": "frontend" },
+    { "name": "Node.js", "category": "backend" },
+    { "name": "Express.js", "category": "backend" },
+    { "name": "REST APIs", "category": "backend" },
+    { "name": "Odoo", "category": "platform" },
+    { "name": "PostgreSQL", "category": "database" },
+    { "name": "MongoDB", "category": "database" },
+    { "name": "Docker", "category": "devops" },
+    { "name": "Git", "category": "devops" },
+    { "name": "CI/CD", "category": "devops" },
+    { "name": "AWS", "category": "devops" }
+  ],
+  "experience": [
+    {
+      "id": "webkul-2024",
+      "company": "Webkul Software Pvt Ltd",
+      "role": "Associate Software Engineer",
+      "period": "August 2024 - Present",
+      "location": "Noida, India",
+      "summary": "Own feature delivery across planning, payments, labeling, and customer-specific Odoo workflows, balancing product requirements with long-term maintainability.",
+      "technologies": ["Odoo", "Python", "PostgreSQL", "JavaScript", "Owl.js", "Stripe Terminal", "Linkly", "ZPL"],
+      "impact": "Shipped modules used in production by active customers while improving debugging, performance, and day-to-day operator workflows.",
+      "highlights": [
+        "Built Project Gantt Native and Manufacturing Gantt Native for Odoo; Project Gantt Native crossed 59+ sales on the Odoo App Store.",
+        "Implemented Stripe Payment Terminal and Linkly Payment Terminal integrations to enable seamless invoice payments inside Odoo.",
+        "Designed and delivered a ZPL Label Designer module with fully customizable label printing workflows.",
+        "Handled multiple client-specific customizations including notification sounds, advanced search capabilities, and Nafath verification during account creation.",
+        "Improved reliability and maintainability through debugging, refactoring, and performance profiling across live Odoo applications."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "financeguard",
+      "title": "FinanceGuard",
+      "subtitle": "Intelligent MERN Dashboard with Machine Learning",
+      "description": "A full-stack finance dashboard built on the MERN stack integrated with machine learning for financial predictions. Features real-time analytics, interactive data visualizations, and RESTful APIs for seamless frontend-backend communication.",
+      "problem": "Created to give users a single workspace for financial monitoring, trend analysis, and experimentation with predictive insights.",
+      "impact": "Demonstrates end-to-end ownership of dashboard UX, API integration, and data-driven product thinking.",
+      "highlights": [
+        "Built REST-based data flows between React dashboards and Node/Express services.",
+        "Implemented reusable visual components for analytics, charts, and portfolio-style reporting views.",
+        "Structured the app to support machine learning predictions alongside core financial tracking features."
+      ],
+      "stack": ["MongoDB", "Express.js", "React", "Node.js", "Machine Learning", "Vercel"],
+      "github": "https://github.com/Abhixort/financeguard",
+      "live": "",
+      "featured": true,
+      "image": "/projects/financeguard.png"
+    },
+    {
+      "id": "library-ms",
+      "title": "Library Management System",
+      "subtitle": "Scalable MERN Web Application",
+      "description": "A scalable web application for managing library operations - book tracking, inventory control, and user management. Implements optimized MongoDB queries for large datasets and a clean React UI.",
+      "problem": "Designed to simplify catalog management, issue and return workflows, and role-based usage for a library environment.",
+      "impact": "Shows practical full-stack CRUD architecture, clean UI structuring, and backend separation across frontend and API repositories.",
+      "highlights": [
+        "Built separate frontend and backend codebases for clearer responsibilities and deployment flexibility.",
+        "Modeled book, inventory, and user workflows with MongoDB-backed APIs.",
+        "Focused on usability and maintainability so everyday operations stay easy to manage."
+      ],
+      "stack": ["MongoDB", "Express.js", "React.js", "Node.js"],
+      "github": "https://github.com/Abhixort/College-Project",
+      "githubBackend": "https://github.com/Abhixort/College-Project-Backend",
+      "live": "",
+      "featured": true,
+      "image": "/projects/library-ms.png"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech., Computer Science and Engineering",
+      "institution": "Bhagalpur College of Engineering",
+      "period": "2019 - 2023",
+      "grade": "CGPA: 7.82",
+      "details": [
+        "Built strong foundations in data structures, DBMS, operating systems, and software engineering.",
+        "Strengthened analytical thinking through projects, programming practice, and problem-solving coursework."
+      ]
+    },
+    {
+      "degree": "Senior Secondary (12th, PCM)",
+      "institution": "Langat Singh College",
+      "period": "2016 - 2018",
+      "grade": "65.6%",
+      "details": [
+        "Focused on physics, chemistry, and mathematics, building the analytical base that later supported software engineering."
+      ]
+    },
+    {
+      "degree": "Secondary (10th)",
+      "institution": "N K High School",
+      "period": "2016",
+      "grade": "76.2%",
+      "details": [
+        "Developed early discipline in core academics and quantitative problem solving."
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Python Programming",
+      "focus": "Core language fluency, scripting fundamentals, and problem solving."
+    },
+    {
+      "title": "Cisco Networking Essentials",
+      "focus": "Network fundamentals, connectivity concepts, and infrastructure basics."
+    },
+    {
+      "title": "Web Development",
+      "focus": "Frontend and backend web application fundamentals."
+    },
+    {
+      "title": "Ethical Hacking",
+      "focus": "Security awareness, common attack surfaces, and defensive thinking."
+    }
+  ]
+}

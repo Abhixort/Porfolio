@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Custom Properties ─── */
+:root {
+  --font-geist-sans: "Geist", system-ui, sans-serif;
+  --font-geist-mono: "Geist Mono", monospace;
+}
+
+/* ─── Base Reset ─── */
+@layer base {
+  *, *::before, *::after { box-sizing: border-box; }
+
+  html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-bg text-ink antialiased font-sans;
+    min-height: 100dvh;
+    overflow-x: hidden;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { @apply bg-bg; }
+  ::-webkit-scrollbar-thumb { @apply bg-bg-border rounded-full; }
+  ::-webkit-scrollbar-thumb:hover { @apply bg-ink-dim; }
+
+  /* Focus rings */
+  :focus-visible {
+    @apply outline outline-2 outline-offset-2 outline-accent rounded-sm;
+  }
+
+  /* Selection */
+  ::selection { @apply bg-accent/20 text-accent; }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium tracking-tight text-ink;
+  }
+
+  a { @apply text-inherit no-underline; }
+
+  img { @apply max-w-full; }
+}
+
+/* ─── Utility Layers ─── */
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-accent to-accent-dim bg-clip-text text-transparent;
+  }
+
+  .border-glow {
+    box-shadow: 0 0 0 1px theme('colors.accent.DEFAULT' / 30%),
+                0 0 24px 0 theme('colors.accent.DEFAULT' / 8%);
+  }
+
+  .animate-delay-100 { animation-delay: 100ms; }
+  .animate-delay-200 { animation-delay: 200ms; }
+  .animate-delay-300 { animation-delay: 300ms; }
+  .animate-delay-400 { animation-delay: 400ms; }
+}
+
+/* ─── Noise texture overlay ─── */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.035'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.4;
+}
