@@ -19,24 +19,26 @@
   }
 
   body {
-    @apply bg-bg text-ink antialiased font-sans;
+    @apply bg-bg text-ink antialiased font-sans selection:bg-accent/25 selection:text-accent-bright;
     min-height: 100dvh;
     overflow-x: hidden;
+    background-image: 
+      radial-gradient(at 15% 15%, rgba(99, 102, 241, 0.10) 0px, transparent 50%),
+      radial-gradient(at 85% 10%, rgba(168, 85, 247, 0.08) 0px, transparent 50%),
+      radial-gradient(at 50% 90%, rgba(14, 165, 233, 0.05) 0px, transparent 55%);
+    background-attachment: fixed;
   }
 
   /* Custom scrollbar */
-  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar { width: 7px; }
   ::-webkit-scrollbar-track { @apply bg-bg; }
   ::-webkit-scrollbar-thumb { @apply bg-bg-border rounded-full; }
   ::-webkit-scrollbar-thumb:hover { @apply bg-ink-dim; }
 
   /* Focus rings */
   :focus-visible {
-    @apply outline outline-2 outline-offset-2 outline-accent rounded-sm;
+    @apply outline outline-2 outline-offset-2 outline-accent rounded;
   }
-
-  /* Selection */
-  ::selection { @apply bg-accent/20 text-accent; }
 
   h1, h2, h3, h4, h5, h6 {
     @apply font-medium tracking-tight text-ink;
@@ -50,18 +52,31 @@
 /* ─── Utility Layers ─── */
 @layer utilities {
   .text-gradient {
-    @apply bg-gradient-to-r from-accent to-accent-dim bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-white via-indigo-100 to-indigo-400 bg-clip-text text-transparent;
+  }
+
+  .text-gradient-indigo {
+    @apply bg-gradient-to-r from-indigo-300 via-sky-200 to-violet-300 bg-clip-text text-transparent;
   }
 
   .border-glow {
-    box-shadow: 0 0 0 1px theme('colors.accent.DEFAULT' / 30%),
-                0 0 24px 0 theme('colors.accent.DEFAULT' / 8%);
+    box-shadow: 0 0 0 1px theme('colors.accent.DEFAULT' / 25%),
+                0 0 24px 0 theme('colors.accent.DEFAULT' / 12%);
+  }
+
+  .glass-card {
+    @apply bg-bg-card/75 backdrop-blur-xl border border-bg-border transition-all duration-300;
+  }
+
+  .glass-card:hover {
+    @apply bg-bg-card/95 border-indigo-500/40 shadow-2xl shadow-indigo-500/10;
   }
 
   .animate-delay-100 { animation-delay: 100ms; }
   .animate-delay-200 { animation-delay: 200ms; }
   .animate-delay-300 { animation-delay: 300ms; }
   .animate-delay-400 { animation-delay: 400ms; }
+  .animate-delay-500 { animation-delay: 500ms; }
 }
 
 /* ─── Noise texture overlay ─── */
@@ -69,8 +84,28 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.035'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
   pointer-events: none;
   z-index: 0;
-  opacity: 0.4;
+  opacity: 0.35;
+}
+
+/* ─── Clean Print Styles for CV/Resume ─── */
+@media print {
+  header, footer, .no-print {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #111827 !important;
+  }
+  body::before {
+    display: none !important;
+  }
+  .print-clean {
+    border-color: #e5e7eb !important;
+    background: #ffffff !important;
+    color: #111827 !important;
+    box-shadow: none !important;
+  }
 }

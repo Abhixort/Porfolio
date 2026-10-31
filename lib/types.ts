@@ -1,11 +1,21 @@
 export interface Skill {
   name: string;
-  category: "language" | "frontend" | "backend" | "platform" | "database" | "devops";
+  category: "language" | "backend" | "ai" | "data" | "devops" | "frontend_tools";
 }
 
 export interface Stat {
   label: string;
   value: string;
+  highlight?: string;
+}
+
+export interface PublishedModule {
+  name: string;
+  sales: string;
+  salesCount: number;
+  category: string;
+  description: string;
+  tags: string[];
 }
 
 export interface FocusArea {
@@ -75,6 +85,7 @@ export interface PortfolioData {
   };
   summary: string;
   stats: Stat[];
+  publishedModules: PublishedModule[];
   focusAreas: FocusArea[];
   skills: Skill[];
   experience: Experience[];

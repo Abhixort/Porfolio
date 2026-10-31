@@ -1,175 +1,325 @@
 {
   "meta": {
     "name": "Abhishek Abhigyanam",
-    "role": "Full Stack Software Engineer",
-    "currentRole": "Associate Software Engineer",
-    "currentCompany": "Webkul Software Pvt Ltd",
-    "tagline": "Building full-stack products, enterprise workflows, and robust integrations with Python, MERN, and Odoo.",
+    "role": "Software Engineer",
+    "currentRole": "Software Engineer",
+    "currentCompany": "Webkul Software Pvt. Ltd.",
+    "tagline": "Software Engineer specializing in Python, Odoo backend architecture, REST APIs, distributed async platforms (FastAPI, Redis, Celery), and AWS EC2 deployments.",
     "email": "a.abhigyanam@gmail.com",
     "phone": "+91 7667409663",
     "location": "Noida, Uttar Pradesh",
-    "availability": "Open to full-time software engineering roles and select freelance collaborations.",
+    "availability": "Open to Software Engineering roles & distributed backend engineering opportunities.",
     "responseTime": "Usually replies within 24 hours.",
     "github": "https://github.com/Abhixort",
-    "linkedin": "https://www.linkedin.com/in/abhigyanam-b577b8212/",
-    "leetcode": "https://leetcode.com/u/ABHI_GYANAM/",
+    "linkedin": "https://linkedin.com/in/abhishek-abhigyanam-b577b8212",
+    "leetcode": "https://leetcode.com/u/ABHI_GYANAM",
     "resumeUrl": "/resume.pdf",
-    "siteUrl": "https://abhishekabhigyanam.vercel.app",
+    "siteUrl": "https://abhishek-abhigyanam.vercel.app",
     "ogImage": "/og-image.png"
   },
-  "summary": "Full Stack Software Engineer with experience shipping business-focused products across Odoo, MERN, and Python ecosystems. I enjoy turning complex workflows into clean interfaces, dependable APIs, and maintainable backend logic. My work spans payment integrations, planning tools, analytics-oriented dashboards, and customer-specific platform customizations for real production teams.",
+  "summary": "Software Engineer with 2+ years of experience in Python/Odoo backend development, REST APIs for mobile apps, websites, payment integrations, and end-to-end Odoo deployment on AWS EC2. Published Odoo App Store modules with 185+ commercial sales. Backend projects use FastAPI, Redis, Celery, Docker, and CI/CD pipelines.",
   "stats": [
     {
-      "label": "Current role",
-      "value": "Associate Software Engineer at Webkul"
+      "label": "Experience",
+      "value": "2+ years in Python, Odoo backend & REST APIs",
+      "highlight": "2+ Years"
     },
     {
-      "label": "Product traction",
-      "value": "59+ sales on Project Gantt Native"
+      "label": "Commercial Traction",
+      "value": "Published Odoo App Store modules (185+ sales)",
+      "highlight": "185+ Sales"
     },
     {
-      "label": "Core focus",
-      "value": "Integrations, dashboards, and enterprise workflows"
+      "label": "Distributed Systems",
+      "value": "FastAPI, Celery workers, Redis queues & Docker",
+      "highlight": "FastAPI & Celery"
+    },
+    {
+      "label": "Cloud & Production",
+      "value": "End-to-end AWS EC2, Nginx, Linux & Odoo.sh",
+      "highlight": "AWS EC2"
+    }
+  ],
+  "publishedModules": [
+    {
+      "name": "Project Gantt Native",
+      "sales": "68+ Sales",
+      "salesCount": 68,
+      "category": "Project Management",
+      "description": "Interactive Gantt chart view for project planning, drag-and-drop timeline scheduling, task dependencies, and resource allocation within Odoo.",
+      "tags": ["Python", "Odoo", "Owl.js", "Gantt"]
+    },
+    {
+      "name": "Mobikul Suite",
+      "sales": "54+ Sales",
+      "salesCount": 54,
+      "category": "Mobile Commerce",
+      "description": "Comprehensive mobile ERP bridge delivering high-throughput REST APIs for mobile applications across POS, Multivendor, and Attendance operations.",
+      "tags": ["Python", "REST APIs", "Mobile", "Odoo"]
+    },
+    {
+      "name": "Delivery Boy App & Backend",
+      "sales": "37+ Sales",
+      "salesCount": 37,
+      "category": "Logistics & Delivery",
+      "description": "Real-time dispatch management system, order assignment APIs, location tracking, and status synchronization for delivery fleets.",
+      "tags": ["Python", "FastAPI", "Odoo", "APIs"]
+    },
+    {
+      "name": "AI Business Card Reader",
+      "sales": "12+ Sales",
+      "salesCount": 12,
+      "category": "AI & Automation",
+      "description": "Computer vision and OCR integration that automatically digitizes physical business cards and extracts contact entities into CRM leads.",
+      "tags": ["AI/OCR", "Python", "CRM", "Automation"]
+    },
+    {
+      "name": "ZPL Label Designer",
+      "sales": "7+ Sales",
+      "salesCount": 7,
+      "category": "Manufacturing & Hardware",
+      "description": "Customizable visual label designer generating dynamic barcode/QR tags, live label previews, and printer-ready Zebra Programming Language (ZPL) code.",
+      "tags": ["ZPL", "Barcodes", "Hardware", "Python"]
+    },
+    {
+      "name": "Manufacturing Alternate Product",
+      "sales": "7+ Sales",
+      "salesCount": 7,
+      "category": "Manufacturing ERP",
+      "description": "Dynamic BOM & manufacturing module enabling automated substitute/alternate component selection on live manufacturing orders.",
+      "tags": ["Manufacturing", "ERP", "Python", "BOM"]
     }
   ],
   "focusAreas": [
     {
-      "title": "Enterprise Workflow Engineering",
-      "description": "Design and extend internal tools, ERP modules, and operational interfaces that reduce manual work and fit naturally into real business processes."
+      "title": "Backend Engineering & REST APIs",
+      "description": "Designing high-concurrency RESTful APIs in FastAPI and Python, with JWT/OTP authentication, role-based access control, Redis caching, and rate limiting."
     },
     {
-      "title": "Integrations and Platform Customization",
-      "description": "Connect third-party services such as payment terminals and adapt products around client-specific rules, approvals, and domain requirements."
+      "title": "Distributed Task & Queue Systems",
+      "description": "Building resilient asynchronous architectures using Celery workers, Redis message brokers, worker retry mechanisms, and idempotent event handling."
     },
     {
-      "title": "Full-Stack Product Delivery",
-      "description": "Own features from UI composition to backend logic and data flow using React, Next.js, Node.js, Python, PostgreSQL, and MongoDB."
+      "title": "Enterprise ERP & Module Engineering",
+      "description": "Deep expertise in Odoo (Python) architecture, ORM models, Owl.js views, payment gateway integrations (Stripe, Tyro, Linkly), and CS-Cart migrations."
+    },
+    {
+      "title": "Cloud DevOps & CI/CD Pipelines",
+      "description": "End-to-end deployment on AWS EC2, Nginx reverse proxy configuration, systemd service management, Docker containerization, and GitHub Actions CI/CD."
     }
   ],
   "skills": [
     { "name": "Python", "category": "language" },
     { "name": "JavaScript", "category": "language" },
-    { "name": "TypeScript", "category": "language" },
-    { "name": "SQL", "category": "language" },
-    { "name": "React.js", "category": "frontend" },
-    { "name": "Next.js", "category": "frontend" },
-    { "name": "Owl.js", "category": "frontend" },
-    { "name": "Tailwind CSS", "category": "frontend" },
-    { "name": "Node.js", "category": "backend" },
-    { "name": "Express.js", "category": "backend" },
+    { "name": "C++", "category": "language" },
+    { "name": "Odoo (Python)", "category": "backend" },
+    { "name": "FastAPI", "category": "backend" },
+    { "name": "Django", "category": "backend" },
     { "name": "REST APIs", "category": "backend" },
-    { "name": "Odoo", "category": "platform" },
-    { "name": "PostgreSQL", "category": "database" },
-    { "name": "MongoDB", "category": "database" },
-    { "name": "Docker", "category": "devops" },
-    { "name": "Git", "category": "devops" },
-    { "name": "CI/CD", "category": "devops" },
-    { "name": "AWS", "category": "devops" }
+    { "name": "OpenAPI / Swagger", "category": "backend" },
+    { "name": "JWT & OTP Auth", "category": "backend" },
+    { "name": "Role-Based Access (RBAC)", "category": "backend" },
+    { "name": "Generative AI", "category": "ai" },
+    { "name": "AI-Powered OCR", "category": "ai" },
+    { "name": "PostgreSQL", "category": "data" },
+    { "name": "Redis Caching", "category": "data" },
+    { "name": "Celery Workers", "category": "data" },
+    { "name": "Message Queues", "category": "data" },
+    { "name": "Background Processing", "category": "data" },
+    { "name": "Rate Limiting", "category": "data" },
+    { "name": "AWS EC2", "category": "devops" },
+    { "name": "Nginx", "category": "devops" },
+    { "name": "Linux / Ubuntu", "category": "devops" },
+    { "name": "Odoo Deployment", "category": "devops" },
+    { "name": "Odoo.sh", "category": "devops" },
+    { "name": "Docker & Compose", "category": "devops" },
+    { "name": "GitHub Actions (CI/CD)", "category": "devops" },
+    { "name": "Pytest", "category": "frontend_tools" },
+    { "name": "Git & GitHub", "category": "frontend_tools" },
+    { "name": "Postman", "category": "frontend_tools" },
+    { "name": "React.js", "category": "frontend_tools" },
+    { "name": "Next.js", "category": "frontend_tools" },
+    { "name": "Owl.js", "category": "frontend_tools" }
   ],
   "experience": [
     {
       "id": "webkul-2024",
-      "company": "Webkul Software Pvt Ltd",
-      "role": "Associate Software Engineer",
-      "period": "August 2024 - Present",
-      "location": "Noida, India",
-      "summary": "Own feature delivery across planning, payments, labeling, and customer-specific Odoo workflows, balancing product requirements with long-term maintainability.",
-      "technologies": ["Odoo", "Python", "PostgreSQL", "JavaScript", "Owl.js", "Stripe Terminal", "Linkly", "ZPL"],
-      "impact": "Shipped modules used in production by active customers while improving debugging, performance, and day-to-day operator workflows.",
+      "company": "Webkul Software Pvt. Ltd.",
+      "role": "Software Engineer",
+      "period": "Aug 2024 – Present",
+      "location": "Noida, Uttar Pradesh, India",
+      "summary": "Full lifecycle software engineering across backend systems, REST APIs, enterprise ERP modules, multi-provider payment integrations, AI document OCR, and cloud infrastructure on AWS EC2.",
+      "technologies": [
+        "Python",
+        "Odoo",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "Celery",
+        "AWS EC2",
+        "Docker",
+        "Nginx",
+        "Generative AI",
+        "Owl.js",
+        "Stripe Terminal",
+        "Linkly",
+        "Tyro",
+        "WebSockets"
+      ],
+      "impact": "Published Odoo App Store modules achieving 185+ sales; built and deployed real-time WebSocket systems, Generative AI OCR tools, and production AWS infrastructure for global clients.",
       "highlights": [
-        "Built Project Gantt Native and Manufacturing Gantt Native for Odoo; Project Gantt Native crossed 59+ sales on the Odoo App Store.",
-        "Implemented Stripe Payment Terminal and Linkly Payment Terminal integrations to enable seamless invoice payments inside Odoo.",
-        "Designed and delivered a ZPL Label Designer module with fully customizable label printing workflows.",
-        "Handled multiple client-specific customizations including notification sounds, advanced search capabilities, and Nafath verification during account creation.",
-        "Improved reliability and maintainability through debugging, refactoring, and performance profiling across live Odoo applications."
+        "API Development: Developed and maintained REST APIs for mobile and web clients across Mobikul, Mobikul POS, Mobikul Multivendor, Mobikul Attendance, and Delivery Boy apps (products, orders, delivery, inventory, notifications); delivered multiple client projects with customizations such as notification sounds, advanced search, and customer-based pricelists.",
+        "Odoo App Store: Built and published Odoo modules in Python (models, APIs, web views): Project Gantt Native (68+ sales), Mobikul (54+ sales), Delivery Boy (37+ sales), AI Business Card Reader (12+ sales), ZPL Label Designer (7+ sales), and Manufacturing Alternate Product (7+ sales).",
+        "AI & OCR: Developing Odoo AI OCR Mobile App, an AI-powered OCR module that scans invoices, vendor bills, expenses, and business documents using Generative AI to automate enterprise document processing.",
+        "Websites & Real-Time Engine: Created a real estate auction website with WebSocket-based real-time bidding, plus additional website modules and SEO redirects to optimize client platforms; integrated Mobikul and Delivery Boy APIs into mobile apps.",
+        "E-Commerce & Large-Scale Migration: Led Odoo ERP e-commerce and sales projects, including migrating CS-Cart websites for multiple clients to Odoo as the end-to-end developer; migrated a client's Mobikul server and historical data from Odoo 16 to 19.",
+        "Payment Integrations: Integrated Stripe Terminal, Linkly, and Tyro payment services with Odoo Invoicing (API communication, transaction and error handling, payment-status synchronization), plus payment providers including Stripe and Worldpay.",
+        "Manufacturing & Hardware: Built Manufacturing Gantt Native, the Manufacturing Alternate Product module (alternate products on manufacturing orders), and a customizable ZPL label designer with dynamic product data, barcode/QR generation, label previews, and printer-ready ZPL output.",
+        "Cloud Deployment & AWS: Deployed Odoo end to end on clients' AWS EC2 instances, including Odoo configuration, Nginx configuration (sites-available and sites-enabled), systemd service files, and server performance optimization.",
+        "Integrations & Authentication: Implemented OTP authentication for login and signup, plus Nafath and OTP/WhatsApp verification, adapting backend validation to client-specific requirements; delivered API customizations for a separate client mobile app using Odoo's JSON-2 API.",
+        "Production Support & Maintenance: Resolved production issues across multiple client instances and Odoo versions, including API validation, database concurrency, authentication, third-party integrations, and Odoo.sh deployment/build failures."
       ]
     }
   ],
   "projects": [
     {
-      "id": "financeguard",
-      "title": "FinanceGuard",
-      "subtitle": "Intelligent MERN Dashboard with Machine Learning",
-      "description": "A full-stack finance dashboard built on the MERN stack integrated with machine learning for financial predictions. Features real-time analytics, interactive data visualizations, and RESTful APIs for seamless frontend-backend communication.",
-      "problem": "Created to give users a single workspace for financial monitoring, trend analysis, and experimentation with predictive insights.",
-      "impact": "Demonstrates end-to-end ownership of dashboard UX, API integration, and data-driven product thinking.",
+      "id": "ecommerce-order-platform",
+      "title": "E-Commerce Order Management Platform",
+      "subtitle": "High-Throughput Microservice Architecture with FastAPI & Celery",
+      "description": "A scalable backend order processing and inventory management platform designed for high-concurrency e-commerce operations with asynchronous queues and distributed workers.",
+      "problem": "Handling burst order traffic, inventory race conditions, and heavy checkout flows requires decoupled background processing, atomic database transactions, and aggressive caching.",
+      "impact": "Engineered sub-50ms API response times with Redis caching, eliminated duplicate order submissions, and ensured zero-downtime task execution via Celery workers.",
       "highlights": [
-        "Built REST-based data flows between React dashboards and Node/Express services.",
-        "Implemented reusable visual components for analytics, charts, and portfolio-style reporting views.",
-        "Structured the app to support machine learning predictions alongside core financial tracking features."
+        "Designed REST APIs for authentication, products, inventory, cart, and orders, with JWT authentication and role-based access control (RBAC).",
+        "Added Redis caching, API rate limiting, and asynchronous order processing with Celery task queues.",
+        "Modeled an indexed PostgreSQL schema with robust transaction handling to guarantee inventory consistency.",
+        "Containerized services with Docker Compose; added Pytest unit/integration test suites and an automated GitHub Actions CI/CD pipeline."
       ],
-      "stack": ["MongoDB", "Express.js", "React", "Node.js", "Machine Learning", "Vercel"],
-      "github": "https://github.com/Abhixort/financeguard",
+      "stack": ["Python", "FastAPI", "PostgreSQL", "Redis", "Celery", "Docker", "AWS", "Pytest", "GitHub Actions"],
+      "github": "https://github.com/Abhixort",
       "live": "",
       "featured": true,
-      "image": "/projects/financeguard.png"
+      "image": "/projects/ecommerce-order.png"
     },
     {
-      "id": "library-ms",
-      "title": "Library Management System",
-      "subtitle": "Scalable MERN Web Application",
-      "description": "A scalable web application for managing library operations - book tracking, inventory control, and user management. Implements optimized MongoDB queries for large datasets and a clean React UI.",
-      "problem": "Designed to simplify catalog management, issue and return workflows, and role-based usage for a library environment.",
-      "impact": "Shows practical full-stack CRUD architecture, clean UI structuring, and backend separation across frontend and API repositories.",
+      "id": "distributed-notification-platform",
+      "title": "Distributed Notification Platform",
+      "subtitle": "Asynchronous Multi-Worker Messaging Architecture",
+      "description": "An enterprise-grade notification platform supporting scheduled alerts, user notification preferences, rate limiting, and idempotent event processing across multiple worker nodes.",
+      "problem": "Large-scale user notification dispatch often suffers from worker failures, duplicate messages, and queue congestion during peak campaign broadcasts.",
+      "impact": "Achieved zero duplicate deliveries through idempotent task execution, graceful retry handling with exponential backoff, and documented OpenAPI interface.",
       "highlights": [
-        "Built separate frontend and backend codebases for clearer responsibilities and deployment flexibility.",
-        "Modeled book, inventory, and user workflows with MongoDB-backed APIs.",
-        "Focused on usability and maintainability so everyday operations stay easy to manage."
+        "Built an asynchronous notification-processing architecture with retry and failure handling for distributed workers, and idempotent processing to prevent duplicate notifications.",
+        "Added scheduled notifications, granular user notification preferences, dynamic rate limiting, and Redis-backed task queues.",
+        "Documented all API endpoints and schemas using OpenAPI (Swagger) specifications for seamless client integration."
       ],
-      "stack": ["MongoDB", "Express.js", "React.js", "Node.js"],
-      "github": "https://github.com/Abhixort/College-Project",
-      "githubBackend": "https://github.com/Abhixort/College-Project-Backend",
+      "stack": ["Python", "FastAPI", "Redis", "Celery", "PostgreSQL", "Docker", "OpenAPI"],
+      "github": "https://github.com/Abhixort",
       "live": "",
       "featured": true,
-      "image": "/projects/library-ms.png"
+      "image": "/projects/notification-platform.png"
+    },
+    {
+      "id": "odoo-ai-ocr",
+      "title": "Odoo AI OCR Mobile App & Doc Engine",
+      "subtitle": "Generative AI Document Scanner for Enterprise Accounting",
+      "description": "An AI-powered OCR module that scans invoices, vendor bills, expense receipts, and business documents using Generative AI to automate bookkeeping inside Odoo.",
+      "problem": "Manual entry of supplier invoices, line items, and tax numbers is error-prone, labor-intensive, and introduces accounting delays.",
+      "impact": "Automates document ingestion directly into Odoo Invoicing with high extraction precision, structured entity parsing, and validation against existing vendors.",
+      "highlights": [
+        "Engineered Generative AI extraction pipeline to parse unstructured receipt and invoice PDFs/images into validated structured JSON.",
+        "Integrated OCR payloads into Odoo accounting workflows for automated draft bill creation and vendor matching.",
+        "Architected mobile client endpoints for immediate scan, preview, and confirmation by field teams."
+      ],
+      "stack": ["Generative AI", "Python", "Odoo", "REST APIs", "Mobile Integration", "PostgreSQL"],
+      "github": "https://github.com/Abhixort",
+      "live": "",
+      "featured": true,
+      "image": "/projects/ai-ocr.png"
+    },
+    {
+      "id": "realtime-auction-platform",
+      "title": "Real-Time Auction & Real Estate Bidding Engine",
+      "subtitle": "WebSocket-Based Synchronized Bidding Platform",
+      "description": "A high-performance real estate auction platform featuring WebSocket-powered live bidding, synchronized bid state across all active bidders, and comprehensive SEO optimization.",
+      "problem": "Auction platforms need sub-second bid propagation and guaranteed chronological ordering so bidders experience zero latency discrepancies.",
+      "impact": "Delivered instantaneous live bidding updates, zero page refreshes during competitive bidding wars, and optimized search ranking with automated redirects.",
+      "highlights": [
+        "Architected real-time WebSocket communication layer for instantaneous bid broadcast and timer synchronization.",
+        "Developed custom Odoo website modules, SEO redirects, and schema markup to maximize search visibility.",
+        "Built resilient APIs connecting web client and mobile bidding applications."
+      ],
+      "stack": ["WebSockets", "Python", "Odoo", "JavaScript", "REST APIs", "SEO"],
+      "github": "https://github.com/Abhixort",
+      "live": "",
+      "featured": true,
+      "image": "/projects/realtime-auction.png"
+    },
+    {
+      "id": "odoo-appstore-modules",
+      "title": "Published Odoo App Store Modules Suite",
+      "subtitle": "Commercial Production Modules with 185+ Sales",
+      "description": "A commercial portfolio of published Odoo modules on the official Odoo App Store, solving complex enterprise challenges across project planning, mobile APIs, and manufacturing.",
+      "problem": "Enterprises using Odoo often face gaps in visual Gantt planning, mobile delivery dispatching, barcode/ZPL hardware printing, and substitute materials.",
+      "impact": "Surpassed 185+ commercial sales worldwide; highly rated by enterprise customers for stability, clean Owl.js UI, and zero-defect deployment.",
+      "highlights": [
+        "Project Gantt Native (68+ sales): Interactive drag-and-drop planning tool with task dependencies.",
+        "Mobikul Suite & Delivery Boy (91+ sales combined): High-throughput mobile REST APIs and real-time delivery logistics.",
+        "AI Business Card Reader (12+ sales), ZPL Label Designer (7+ sales), and Manufacturing Alternate Product (7+ sales)."
+      ],
+      "stack": ["Python", "Odoo", "Owl.js", "PostgreSQL", "ZPL", "REST APIs"],
+      "github": "https://github.com/Abhixort",
+      "live": "",
+      "featured": true,
+      "image": "/projects/odoo-modules.png"
     }
   ],
   "education": [
     {
-      "degree": "B.Tech., Computer Science and Engineering",
+      "degree": "B.Tech, Computer Science and Engineering",
       "institution": "Bhagalpur College of Engineering",
-      "period": "2019 - 2023",
+      "period": "2019 – 2023",
       "grade": "CGPA: 7.82",
       "details": [
-        "Built strong foundations in data structures, DBMS, operating systems, and software engineering.",
-        "Strengthened analytical thinking through projects, programming practice, and problem-solving coursework."
+        "Core coursework: Data Structures & Algorithms, Database Management Systems, Operating Systems, Computer Networks, and Software Engineering.",
+        "Practiced competitive programming, backend systems design, and full-stack project development."
       ]
     },
     {
-      "degree": "Senior Secondary (12th, PCM)",
-      "institution": "Langat Singh College",
-      "period": "2016 - 2018",
+      "degree": "12th (PCM)",
+      "institution": "Langat Singh College, Muzaffarpur",
+      "period": "2016 – 2018",
       "grade": "65.6%",
       "details": [
-        "Focused on physics, chemistry, and mathematics, building the analytical base that later supported software engineering."
+        "Specialized in Physics, Chemistry, and Mathematics, strengthening quantitative problem-solving and mathematical foundations."
       ]
     },
     {
-      "degree": "Secondary (10th)",
-      "institution": "N K High School",
-      "period": "2016",
+      "degree": "10th",
+      "institution": "N. K. High School",
+      "period": "2015 – 2016",
       "grade": "76.2%",
       "details": [
-        "Developed early discipline in core academics and quantitative problem solving."
+        "Built strong early foundations in science, mathematics, and academic excellence."
       ]
     }
   ],
   "certifications": [
     {
       "title": "Python Programming",
-      "focus": "Core language fluency, scripting fundamentals, and problem solving."
+      "focus": "Advanced Python concepts, OOP, data structures, and backend development."
     },
     {
       "title": "Cisco Networking Essentials",
-      "focus": "Network fundamentals, connectivity concepts, and infrastructure basics."
+      "focus": "Network architecture, TCP/IP, routing protocols, subnets, and infrastructure basics."
     },
     {
       "title": "Web Development",
-      "focus": "Frontend and backend web application fundamentals."
+      "focus": "Modern web application development, APIs, responsive UI, and database connectivity."
     },
     {
-      "title": "Ethical Hacking",
-      "focus": "Security awareness, common attack surfaces, and defensive thinking."
+      "title": "Ethical Hacking & Web Security",
+      "focus": "Web application security principles, vulnerability assessment, and authentication safeguards."
     }
   ]
 }

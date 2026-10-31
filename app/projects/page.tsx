@@ -7,7 +7,7 @@ import type { Project } from "@/lib/types";
 
 export const metadata: Metadata = makeMetadata(
   "Projects",
-  "Full-stack projects built with MERN, Python, and Odoo by Abhishek Abhigyanam.",
+  "Backend microservices, distributed queue architectures, Generative AI OCR, and real-time systems by Abhishek Abhigyanam.",
 );
 
 export default function ProjectsPage() {
@@ -16,31 +16,36 @@ export default function ProjectsPage() {
   return (
     <SectionWrapper>
       <SectionHeading
-        label="// my work"
-        title="Projects"
-        description="A deeper look at the dashboards, workflow tools, and full-stack systems I have designed around real operational needs."
+        label="Engineered Systems"
+        title="Featured Projects"
+        description="A closer look at the distributed backend architectures, microservices, asynchronous worker pipelines, and AI systems I have designed and deployed."
       />
 
-      <div className="grid gap-6 sm:grid-cols-2">
+      <div className="grid gap-7 lg:grid-cols-2">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
       </div>
 
-      <div className="mt-16">
+      <div className="mt-20">
         <SectionHeading
-          label="// project lens"
-          title="What These Projects Reflect"
-          description="Across different domains, the common thread in my work is practical product thinking paired with maintainable implementation."
+          label="Architectural Principles"
+          title="How I Design Systems"
+          description="Across high-throughput REST APIs, asynchronous worker tasks, and cloud deployments, these core engineering principles guide every architecture."
         />
-        <div className="grid gap-6 md:grid-cols-3">
-          {data.focusAreas.map((area) => (
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {data.focusAreas.map((area, idx) => (
             <article
               key={area.title}
-              className="rounded-xl border border-bg-border bg-bg-card p-6"
+              className="glass-card rounded-2xl p-6 group hover:border-accent/40"
             >
-              <p className="font-mono text-xs text-accent">{area.title}</p>
-              <p className="mt-3 text-sm leading-relaxed text-ink-muted">
+              <div className="flex h-9 w-9 items-center justify-center rounded-lg border border-accent/30 bg-accent/10 font-mono text-xs font-bold text-accent-bright mb-3">
+                0{idx + 1}
+              </div>
+              <h3 className="text-base font-semibold text-ink group-hover:text-accent-bright transition-colors">
+                {area.title}
+              </h3>
+              <p className="mt-2 text-xs sm:text-sm leading-relaxed text-ink-muted">
                 {area.description}
               </p>
             </article>
@@ -48,18 +53,21 @@ export default function ProjectsPage() {
         </div>
       </div>
 
-      <div className="mt-12 rounded-xl border border-dashed border-bg-border p-8 text-center">
-        <p className="text-sm text-ink-dim">
-          More builds are in progress. You can explore additional repositories on{" "}
+      <div className="mt-16 rounded-2xl border border-dashed border-bg-border/90 bg-bg-card/40 p-8 sm:p-10 text-center">
+        <h3 className="text-base font-semibold text-ink mb-2">
+          Looking for custom architectures or specialized repositories?
+        </h3>
+        <p className="text-sm text-ink-muted max-w-xl mx-auto leading-relaxed">
+          More backend repositories and enterprise modules are actively maintained. Explore my open-source code on{" "}
           <a
             href={data.meta.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-accent hover:underline"
+            className="text-accent-bright hover:underline font-semibold"
           >
             GitHub
           </a>{" "}
-          or reach out if you want a walkthrough of any project.
+          or connect with me directly for a technical walkthrough.
         </p>
       </div>
     </SectionWrapper>
